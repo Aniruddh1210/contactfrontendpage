@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="contact">
+        <h1>CONTACT</h1>
+      </div>
+      <div class="lets">
+        <h1>Let's connect</h1>
+      </div>
+      <div class="please">
+        <h2>Please fill out the form below and we'll reach out right away.</h2>
+      </div>
+    </div>
+    <div class="form">
+      <form action="#" id="myform">
+        <div class="first">
+          <div class="fname">
+            <label for="fnamee">First Name</label>
+            <input
+              type="text"
+              name=""
+              id="fnamee"
+              autocomplete="off"
+              required
+            />
+            <div class="error" id="fnamee-error"></div>
+          </div>
+          <div class="lname">
+            <label for="lnamee">Last Name</label>
+            <input
+              type="text"
+              name=""
+              id="lnamee"
+              autocomplete="off"
+              required
+            />
+            <div class="error" id="lnamee-error"></div>
+          </div>
+        </div>
+        <div class="second">
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="text" name="" id="email" autocomplete="off" required />
+            <div class="error" id="email-error"></div>
+          </div>
+          <div class="company">
+            <label for="company">Company Name</label>
+            <input
+              type="text"
+              name=""
+              id="company"
+              autocomplete="off"
+              required
+            />
+            <div class="error" id="company-error"></div>
+          </div>
+        </div>
+        <div class="job">
+          <label for="job">Job Title</label>
+          <input type="text" name="" id="job" autocomplete="off" required />
+          <div class="error" id="job-error"></div>
+        </div>
+        <div class="select">
+          <label for="purpose">I'd like to</label>
+          <select name="" id="purpose" placeholder="Please select" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="">Finance my tech stack</option>
+            <option value="">Offer contract financing to my customers</option>
+            <option value="">Something else</option>
+          </select>
+          <div class="error" id="purpose-error"></div>
+        </div>
+        <div class="third">
+          <label for="how">How did you hear about us?</label>
+          <input type="text" class="thirdd" required />
+          <div class="error" id="how-error"></div>
+        </div>
+        <div class="fourth">
+          <label for="anything">Anything else you'd like us to know? </label>
+          <input type="text" required />
+          <div class="error" id="anything-error"></div>
+        </div>
+        <input type="submit" value="Submit" class="submit" />
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
